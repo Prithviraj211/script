@@ -1,6 +1,11 @@
 /bin/bash
 
 
+log_info()
+{
+ echo "$1"
+}
+
 log_info "Updating Packages ..."
   echo "Hello $USER"
   sudo apt-get update
