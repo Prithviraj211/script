@@ -4,3 +4,18 @@
 log_info "Updating Packages ..."
   echo "Hello $USER"
   sudo apt-get update
+
+
+
+#Pipeline Solution:-
+
+#https://github.com/techAPJ/install-rails/blob/master/linux
+
+
+#bash <(wget -qO- https://raw.githubusercontent.com/techAPJ/install-rails/master/linux)
+
+#https://github.com/Prithviraj211/script/blob/main/test
+
+
+
+#bash <(wget -qO- https://raw.githubusercontent.com/Prithviraj211/script/blob/main/test)
