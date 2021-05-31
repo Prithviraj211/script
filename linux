@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+# Install Rails
+
+trap 'ret=$?; test $ret -ne 0 && printf "failed\n\n" >&2; exit $ret' EXIT
+
+set -e
+log_info() {
+  printf "\n\e[0;35m $1\e[0m\n\n"
+}
+
+if [ ! -f "$HOME/.bashrc" ]; then
+  touch $HOME/.bashrc
+fi
+
+log_info "Updating Packages ..."
+  sudo apt-get update
+
+log_info "Installing Git ..."
+  sudo apt-get -y install git
