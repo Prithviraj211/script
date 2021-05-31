@@ -11,8 +11,8 @@ log_info "Updating Packages ..."
   sudo apt-get update
 
 
-log_info "Clearing Screen ..."
-  clear
+#log_info "Clearing Screen ..."
+ # clear
 
 log_info "Thanks..."
 
