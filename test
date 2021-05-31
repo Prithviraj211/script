@@ -1,0 +1,6 @@
+/bin/bash
+
+
+log_info "Updating Packages ..."
+  echo "Hello $USER"
+  sudo apt-get update
