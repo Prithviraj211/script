@@ -1,0 +1,14 @@
+Host main
+    HostName 172.31.100.98
+    User ubuntu
+    IdentityFIle ~/sportloto-production.pem
+
+Host cron
+    HostName 172.31.200.80
+    User ubuntu
+    IdentityFIle ~/sportloto-production.pem
+
+Host amqp
+    HostName 172.31.100.239
+    User ubuntu
+    IdentityFIle ~/sportloto-production.pem
